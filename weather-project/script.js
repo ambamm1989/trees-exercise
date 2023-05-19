@@ -17,7 +17,7 @@ function getLocation() {
    console.log(lat);
    console.log(lon);
 
-    var APIkey = "d95fc1da79853f3038b9424209b7d6ab"
+    
     var uvWeatherURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=" + APIkey;
     var localWeatherURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=d95fc1da79853f3038b9424209b7d6ab";
    
